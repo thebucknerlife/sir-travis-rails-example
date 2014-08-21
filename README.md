@@ -26,7 +26,7 @@ What I went through to get this to work:
     <html>
     <head>
       <title>Nomadic</title>
-      <%= stylesheet_link_tag    'application', media: 'all' %> # remove from here
+      <%= stylesheet_link_tag    'application', media: 'all' %> # remove turbolinks stuff from here
       <%= javascript_include_tag 'application' %>               # ...and from here
       <%= csrf_meta_tags %>
     </head>
